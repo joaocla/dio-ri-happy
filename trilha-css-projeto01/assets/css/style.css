@@ -149,3 +149,56 @@ footer a {
   font-weight: bold;
   text-decoration: none;
 }
+
+/* Media Queries para Responsividade */
+@media (max-width: 1200px) {
+  .banner .banner-content {
+    width: 80%; /* Ajusta a largura em telas menores */
+  }
+
+  #course-content {
+    width: 90%; /* Ajusta a largura em telas menores */
+  }
+
+  #professional-challenges {
+    width: 90%; /* Ajusta a largura em telas menores */
+  }
+
+  #transform-world {
+    padding: 100px; /* Ajusta o padding em telas menores */
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem; /* Reduz o tamanho da fonte */
+  }
+
+  .banner h1 {
+    font-size: 2rem; /* Reduz o tamanho da fonte */
+  }
+
+  .banner .banner-content button {
+    font-size: 0.9rem; /* Reduz o tamanho da fonte do botão */
+    padding: 12px 24px; /* Ajusta o padding do botão */
+  }
+
+  #transform-world p {
+    font-size: 1.8rem; /* Reduz o tamanho da fonte */
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    height: 400px; /* Ajusta a altura do banner */
+  }
+
+  .banner .logo {
+    height: 200px; /* Ajusta a altura do logo */
+    width: 200px; /* Ajusta a largura do logo */
+  }
+
+  #transform-world {
+    padding: 50px; /* Ajusta o padding em telas menores */
+  }
+}
